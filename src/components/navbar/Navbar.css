@@ -1,0 +1,35 @@
+.nav-container {
+  height: 3.5em;
+  background-color: #272b30;
+  color: #6f767e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.logo {
+  font-family: "Lobster";
+  font-size: xx-large;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 7px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    font-size: x-large;
+  }
+  .nav-item {
+    font-size: smaller;
+  }
+}
